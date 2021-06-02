@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>getkcal</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+</head>
+
+<body>
+  <section class="hero is-link is-fullheight">
+    <header class="title is-1 has-text-centered">
+        <br>
+        <div>
+          <img width="50"
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0xMi0uMDA2YzYuNjIzIDAgMTIgNS4zNzcgMTIgMTJzLTUuMzc3IDEyLTEyIDEyLTEyLTUuMzc3LTEyLTEyIDUuMzc3LTEyIDEyLTEyem01Ljk5OSAxOS45OTljMi40MjktMS44MjUgNC4wMDEtNC43MyA0LjAwMS03Ljk5OSAwLTUuNTE5LTQuNDgxLTEwLTEwLTEwcy0xMCA0LjQ4MS0xMCAxMGMwIDMuNzAxIDIuMDE1IDYuOTM2IDUuMDA4IDguNjY1di00LjAyM2MwLS41NzYtLjM2LS43NjUtMS4xNDctMS4zOTUtLjU4MS0uNDY2LS45ODEtMS4xOTQtLjkwNy0xLjkzNS4yMDktMi4xMTQuNzE4LTYuMzEyLjcxOC02LjMxMmguNXY1aC44MzZsLjE4Ni01aC41MDZsLjE0NCA1aC44MzZsLjIwMS01aC40NjlsLjE2NiA1aC44MzV2LTVoLjQ1OHMuNTYyIDQuMTcxLjc5MyA2LjI5MmMuMDgxLjc1MS0uMzQxIDEuNDkzLS45MzUgMS45NjMtLjc5MS42MjYtMS4xNTEuODA2LTEuMTUxIDEuMzkxdjUuMDQyYy43OTQuMjA0IDEuNjI2LjMxMiAyLjQ4NC4zMTIgMS4yMjkgMCAyLjQwNy0uMjIyIDMuNDk2LS42Mjl2LTMuMzcxcy0uOTc3LS4wMDMtMi4wNTYgMGMuNjY4LTUuODMgMi41ODYtMTEgMy44ODMtMTEgLjM3MyAwIC42Ny4yOTcuNjczLjcwOS4wMDUuODAyLjAwNCA3LjA5MS4wMDMgMTIuMjl6Ii8+PC9zdmc+"></img>
+        </div>
+        <div>
+          <h2>
+            Check Kcal
+          </h2>
+        </div>
+    </header>
+    <div class="container">
+      <div class="content has-text-centered">
+        <form id="form">
+          <div class="field">
+            <label for="gender" class="label is-medium">Seu sexo</label>
+            <div class="control">
+              <div class="select">
+                <select id="gender">
+                  <option value="male">Masculino</option>
+                  <option value="female">Feminino</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="age" class="label is-medium">Sua idade</label>
+            <div class="control is-medium">
+              <input id="age" type="number" class="input"></input>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="weight" class="label is-medium">Seu peso</label>
+            <div class="control">
+              <input id="weight" type="number" class="input"></input>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="height" class="label is-medium">Sua altura</label>
+            <div class="control">
+              <input id="height" type="number" class="input"></input>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="activity_level" class="label is-medium">Seu nível de atividade física</label>
+            <div class="control">
+              <div class="select">
+                <select id="activity_level">
+                  <option value="1.2">Sedentário</option>
+                  <option value="1.375">Pouca atividade</option>
+                  <option value="1.55">Atividade moderada</option>
+                  <option value="1.725">Atividade intensa</option>
+                  <option value="1.9">Atividade muito intensa</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="button-group">
+            <button type="submit" id="calculate" class="button is-danger is-medium">Calcular!</button>
+          </div>
+
+        </form>
+      </div>
+
+    </div>
+    <div class="container py-1 has-text-centered" id="result">
+
+    </div>
+  </section>
+
+
+
+  <script src="assets/js/script.js" type="text/javascript"></script>
+</body>
+
+</html>

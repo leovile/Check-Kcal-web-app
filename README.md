@@ -1,6 +1,6 @@
 # Check Kcal
 
-Estes são os arquivos do projeto **Check Kcal**.
+Estes são os arquivos do projeto **Check Kcal**. Feito com Javascript, e Bulma.
 
 ## Instalação
 
