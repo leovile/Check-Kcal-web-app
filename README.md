@@ -1,6 +1,6 @@
 # Check Kcal
 
-Estes são os arquivos do projeto **Check Kcal**. Feito com Javascript, e Bulma.
+Aplicação para calcular a taxa metabólica basal (TMB), bem como o consumo de calorias para manter, diminuir ou aumentar o peso corporal. Feito com Javascript, e Bulma.
 
 ## Instalação
 
