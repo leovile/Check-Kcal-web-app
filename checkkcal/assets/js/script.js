@@ -31,9 +31,9 @@ function handleSubmit(event) {
   const gainWeight = maintenance + 450;
 
   const layout = `
-    <h2 class="title is-4 has-text-dark">Aqui está o resultado:</h2>
-
     <div>
+
+        <h2 class="title is-4 has-text-dark">Aqui está o resultado:</h2>
 
         <div class="card py-2 px-5 mx-6 my-1 has-background-dark has-text-white">Seu metabolismo basal é de ${tmb} Kcal</div>
         
@@ -43,8 +43,6 @@ function handleSubmit(event) {
         
         <div class="card py-2 px-5 mx-6 my-1 has-background-dark has-text-white">Para ganhar peso você precisa consumir em média ${gainWeight} Kcal</div>
         
-
-
     </div>
   `
 
